@@ -1,0 +1,25 @@
+{
+  "name": "stojankukrika/angular-preset",
+  "description": "Laravel 5.5.x Front-end preset for Angular 5",
+  "keywords": [
+    "laravel",
+    "preset",
+    "angular"
+  ],
+  "license": "MIT",
+  "require": {
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "stojankukrika\\AngularPreset\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "stojankukrika\\AngularPreset\\AngularPresetServiceProvider"
+      ]
+    }
+  }
+}
